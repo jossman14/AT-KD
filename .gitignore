@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+.venv/
+.env
+
+# data, weights, runs
+data/
+datasets/
+runs/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.npz
+*.npy
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# notebooks
+.ipynb_checkpoints/
