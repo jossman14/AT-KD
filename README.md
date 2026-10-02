@@ -176,8 +176,8 @@ Dataset yang dipakai di paper (sumber sesuai catatan di repo induk [Knowledge-Di
 
 | Dataset | Isi | Sumber |
 |---|---|---|
-| **ALL-IDB1** | Citra apusan darah, biner (ALL vs normal) | ALL-IDB (scotti.di.unimi.it, akses dengan persetujuan pemilik); salinan di Kaggle `mohamedasalamnoaman/all-idb1-originalimages` |
-| **ALL-IDB2** | Citra sel tunggal, blast vs non-blast (260 citra) | ALL-IDB (scotti.di.unimi.it, akses dengan persetujuan pemilik) |
+| **ALL-IDB1** | Klasifikasi biner | ALL-IDB (scotti.di.unimi.it, akses dengan persetujuan pemilik); salinan di Kaggle `mohamedasalamnoaman/all-idb1-originalimages` |
+| **ALL-IDB2** | Biner, blast vs non-blast (260 citra) | ALL-IDB (scotti.di.unimi.it, akses dengan persetujuan pemilik) |
 | **Subtype ALL** (`subtypeLeukemia`) | Tiga kelas L1 / L2 / L3 | sumber tidak tercatat |
 
 Dataset **tidak disertakan** di repo ini; unduh sendiri dari sumber di atas lalu susun dalam format `ImageFolder` seperti dijelaskan di bagian data.
