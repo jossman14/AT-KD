@@ -167,3 +167,19 @@ Logit distillation:
 ## License
 
 MIT. See `LICENSE`.
+
+---
+
+## Dataset & Artefak
+
+Dataset yang dipakai di paper (sumber sesuai catatan di repo induk [Knowledge-Distillation](https://github.com/jossman14/Knowledge-Distillation)):
+
+| Dataset | Isi | Sumber |
+|---|---|---|
+| **ALL-IDB1** | Citra apusan darah, biner (ALL vs normal) | ALL-IDB (scotti.di.unimi.it, akses dengan persetujuan pemilik); salinan di Kaggle `mohamedasalamnoaman/all-idb1-originalimages` |
+| **ALL-IDB2** | Citra sel tunggal, blast vs non-blast (260 citra) | ALL-IDB (scotti.di.unimi.it, akses dengan persetujuan pemilik) |
+| **Subtype ALL** (`subtypeLeukemia`) | Tiga kelas L1 / L2 / L3 | sumber tidak tercatat |
+
+Dataset **tidak disertakan** di repo ini; unduh sendiri dari sumber di atas lalu susun dalam format `ImageFolder` seperti dijelaskan di bagian data.
+
+Artefak eksperimen juga **tidak disertakan**: bobot/checkpoint model (`*.pt`, `*.pth`), array hasil (`*.npz`, `*.npy`), serta folder `runs/`, `outputs/`, `checkpoints/` (semuanya diabaikan lewat `.gitignore`). Semua artefak dibuat ulang dengan menjalankan `python train.py` (lihat bagian *Reproduce*); ringkasan hasil ditulis ke `runs/atkd_reproduce/result.json`. Bobot teacher ImageNet-pretrained diunduh otomatis oleh `timm`.
